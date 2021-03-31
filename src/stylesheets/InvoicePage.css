@@ -1,0 +1,131 @@
+#invoice-page {
+  margin: 0 auto;
+  width: 90%;
+  height: auto;
+  font-family: 'Spartan', sans-serif;
+}
+
+#heading-invoice-section {
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  height: 44px;
+  margin-bottom: 30px;
+}
+
+#heading-invoice-section div:first-of-type {
+  float: left;
+}
+
+#invoice-page h3,
+p {
+  margin-bottom: 0;
+  margin-top: 2px;
+}
+
+#invoice-count {
+  width: 50%;
+  /* border: 2px solid black; */
+}
+
+#invoice-count p {
+  font-size: 12px;
+  color: rgb(125, 132, 168);
+  margin-top: 4px;
+  margin-left: -1px;
+}
+
+#filter-button {
+  margin-right: 10px;
+}
+
+#filter-button button {
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#filter-button img {
+  margin-left: 10px;
+}
+
+#new-button-container {
+  float: right;
+}
+
+#new-button {
+  background-color: rgb(124, 93, 250);
+  border: none;
+  border-radius: 30px;
+  width: 90px;
+  height: 44px;
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#new-button div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 25px;
+  padding: 0;
+  height: 32px;
+  width: 32px;
+  margin-left: -18px;
+}
+
+#new-button img {
+}
+
+#new-button p {
+  position: relative;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  left: 8px;
+}
+
+#invoice-body {
+  width: 99%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+}
+
+#empty-illustration {
+  margin-top: 100px;
+  display: inline-block;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#empty-illustration img {
+  margin-bottom: 30px;
+  width: 193px;
+  height: 160px;
+}
+
+#empty-illustration h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#empty-illustration p {
+  font-size: 12px;
+  color: rgb(125, 132, 168);
+}
+
+#empty-illustration p span {
+  font-weight: bold;
+}
