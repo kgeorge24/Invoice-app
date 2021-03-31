@@ -1,12 +1,12 @@
 #nav {
   background-color: rgb(55, 59, 83);
   height: 72px;
+  margin-bottom: 30px;
 }
 
 #left-section {
   float: left;
   width: 80%;
-  /* border: 2px solid red; */
   height: 72px;
 }
 
@@ -34,7 +34,6 @@
   align-items: center;
   width: 72px;
   height: 72px;
-  /* border: solid 1px blue; */
 }
 
 #avatar-container {

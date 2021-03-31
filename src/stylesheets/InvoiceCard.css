@@ -1,0 +1,76 @@
+#invoice-outer-card {
+  border-radius: 4px;
+  width: 20.4em;
+  height: 8.37em;
+  margin-bottom: 15px;
+  background-color: rgb(255, 255, 255);
+}
+
+#invoice-outer-card,
+#invoice-inner-card {
+  display: block;
+}
+
+#invoice-inner-card {
+  padding: 25px;
+}
+
+#left-card-section,
+#right-card-section {
+  /* border: 1px solid black; */
+}
+
+#left-card-section {
+  width: 120px;
+  float: left;
+}
+
+#left-card-section .top-section {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#left-card-section .mid-section {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+#left-card-section .bottom-section {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#right-card-section {
+  width: 120px;
+  height: 80px;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#right-card-section .top-section {
+  font-size: 12px;
+  margin-bottom: 25px;
+  color: rgb(133, 140, 178);
+}
+
+#right-card-section .mid-section {
+  font-size: 12px;
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(51, 214, 159);
+  background-color: rgba(51, 214, 160, 0.061);
+}
+
+#right-card-section .mid-section div {
+  width: 6px;
+  height: 6px;
+  background-color: rgb(51, 214, 159);
+  border-radius: 50%;
+  margin-right: 10px;
+}
